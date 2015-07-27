@@ -103,7 +103,7 @@ listen.api_ip = args.apiIp || 'localhost';
 listen.api_port = args.apiPort || listen.port + 1;
 
 proxy.proxy_server.listen(listen.port, listen.ip);
-proxy.api_server.listen(listen.api_port, listen.api_ip);
+//proxy.api_server.listen(listen.api_port, listen.api_ip);
 
 log.info("Proxying %s://%s:%s to %s",
     options.ssl ? 'https' : 'http',
