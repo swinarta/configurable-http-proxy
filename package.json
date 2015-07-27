@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "commander": "~2",
+    "http-auth": "^2.2.8",
     "http-proxy": "~1.11",
-    "winston": "~0.8",
-    "strftime": "~0.8"
+    "strftime": "~0.8",
+    "winston": "~0.8"
   },
   "devDependencies": {
     "jasmine-node": "~2",
